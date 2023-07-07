@@ -1,0 +1,91 @@
+#signin {
+  height: 100vh;
+}
+
+#loginLogos {
+  margin-top: 30px;
+  margin-left: 20px;
+  height: 60px;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  margin-top: 80px;
+}
+
+#signinHeading {
+  color: rgb(218, 244, 252);
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+#signinEmail {
+  width: 200px;
+  padding: 10px;
+}
+#signinpassword {
+  margin-top: 2px;
+  width: 200px;
+  padding: 10px;
+}
+
+#signinBtn {
+  width: 200px;
+  background-color: red;
+  color: white;
+  padding: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+}
+
+#signinBtn:hover {
+  background-color: rgba(255, 0, 0, 0.726);
+}
+
+#signinUp {
+  display: flex;
+  color: white;
+  justify-content: center;
+}
+
+#signUpMessage {
+  color: red;
+  font-size: 12px;
+  background-color: black;
+  width: 30%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 10px auto 0;
+}
+
+#signInMessage {
+  color: red;
+  color: red;
+  font-size: 12px;
+  background-color: black;
+  width: 20%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 10px auto 0;
+}
+
+@media only screen and (max-width: 700px) {
+  #loginLogos {
+    margin-top: 30px;
+    height: 50px;
+  }
+
+  #signInMessage {
+    color: rgb(255, 0, 0);
+    width: 30%;
+  }
+
+  #signInMessage {
+    background-color: none;
+  }
+}

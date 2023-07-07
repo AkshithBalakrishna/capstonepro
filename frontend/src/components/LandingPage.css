@@ -1,0 +1,120 @@
+#landingHeader {
+  height: 100vh;
+}
+
+#landingNavbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 80px;
+}
+
+#landingLogos {
+  margin-top: 25px;
+  height: 50px;
+}
+
+#singinBtn {
+  background-color: red;
+  color: white;
+  width: 100px;
+  font-weight: 600;
+  border-radius: 220px;
+  padding: 10px;
+  margin-top: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+#singinBtn:hover {
+  background-color: rgba(255, 0, 0, 0.755);
+}
+
+#landingContent {
+  color: rgb(218, 244, 252);
+  height: 25%;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 100px;
+}
+
+#contentHeadingOne {
+  font-weight: 700;
+}
+
+#contentParaOne {
+  font-weight: 500;
+  margin: 2px;
+}
+#contentParaTwo {
+  font-weight: 400;
+  margin: 2px;
+}
+
+#landingLogin {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#landingBtn {
+  background-color: red;
+  color: white;
+  width: 150px;
+  padding: 10px;
+  font-weight: 800;
+  border: none;
+  cursor: pointer;
+  margin: 0%;
+  margin-top: 20px;
+}
+
+#landingBtn:hover {
+  background-color: rgba(255, 0, 0, 0.794);
+}
+
+#landingBtnSec {
+  padding-left: 10px;
+}
+
+@media only screen and (max-width: 550px) {
+  #landingLogo {
+    width: 25%;
+  }
+
+  #landingNavbar {
+    padding-right: 25px;
+    padding-left: 20px;
+  }
+
+  #landingContent {
+    font-size: 20px;
+    margin-top: 80px;
+  }
+
+  #landingLogin {
+    margin-top: 30px;
+    display: list-item;
+    text-align: center;
+  }
+  #contentHeadingOne {
+    font-weight: 600;
+    font-size: 28px;
+  }
+
+  #contentParaOne {
+    font-weight: 400px;
+    font-size: 22px;
+  }
+
+  #contentParaTwo {
+    font-weight: 300px;
+    font-size: 20px;
+  }
+
+  #landingBtn {
+    width: 180px;
+    margin-top: 35px;
+  }
+}
