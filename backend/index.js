@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 4001;
 const app = express();
 
 app.use(bodyParser.json());
-app.use(cors("https://brilliant-malabi-6bde67.netlify.app/"));
+app.use(cors("https://brilliant-malabi-6bde67.netlify.app"));
 app.use(passport.initialize());
 
 const LocalStrategy = require("passport-local").Strategy;
