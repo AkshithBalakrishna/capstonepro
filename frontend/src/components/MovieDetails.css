@@ -1,0 +1,74 @@
+#movieDetails {
+  color: wheat;
+  height: 100vh;
+}
+
+#movieDetailsContainers {
+  height: 100vh;
+  margin-top: 80px;
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#movieDetailsImg {
+  height: 60%;
+  margin-right: 50px;
+  border-radius: 20px;
+}
+
+#movieDetailsDivTwo {
+  margin-bottom: 20px;
+}
+
+#movieOverview {
+  margin-bottom: 10px;
+}
+
+#formDetails {
+  margin-top: 20px;
+}
+
+#movieFeedback {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#userName {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#movieFeedback {
+  height: 100px;
+}
+
+#submitBtn {
+  padding: 7px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#submitBtn:hover {
+  background-color: rgba(255, 0, 0, 0.783);
+}
+
+@media only screen and (max-width: 600px) {
+  #movieDetailsImg {
+    height: 40%;
+  }
+
+  #movieDetailsDivTwo {
+    font-size: 12px;
+    font-weight: 530;
+  }
+
+  #movieDetailsContainers {
+    margin-top: 50px;
+  }
+}
