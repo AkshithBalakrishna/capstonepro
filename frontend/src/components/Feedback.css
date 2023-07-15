@@ -1,0 +1,48 @@
+#feedbackSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#feedbackDiv {
+  margin-top: 20px;
+  margin-left: 20px;
+  padding-top: 10px;
+  border: 1px solid rgb(63, 58, 58);
+  border-radius: 5px;
+  text-align: center;
+  max-width: 300px;
+  width: 20%;
+  background-image: url("https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1548&q=80");
+  color: wheat;
+}
+
+#feedbackImg {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#feedbackTitle {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#feedbackUserName {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#feedbackFeedback {
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+  #feedbackDiv {
+    width: 40%;
+  }
+}
